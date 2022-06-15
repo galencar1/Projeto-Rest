@@ -27,7 +27,7 @@ public class MeuResource7 {
     public Cliente salvarNovoCliente(@RequestBody Cliente cliente){ // Nesse caso o método salvar recebe o JSON com os dados do cliente para que seja salvo.
                                                                     //A Anotação @RequestBody é responsável por transformar os dados do JSON em um objeto que será salvo
         //service.save(cliente); // Nesse caso receberia do serviço os dados do novo cliente
-        return cliente
+        return cliente;
     }
     
 //  Método para deletar cliente.
